@@ -1,4 +1,4 @@
-name = "subscription-manager"
+name = "multi-backend-manager"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 
