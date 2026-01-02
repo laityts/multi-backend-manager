@@ -1,0 +1,16 @@
+name = "subscription-manager"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "subscription_db"
+database_id = "852c8705-f01c-487d-9717-75b213c6f441"
+
+[vars]
+ADMIN_DEFAULT_PASSWORD = "admin123"
+SESSION_SECRET = "KXpHQbV8q3r6x9B2N5s8v7yA?D(G+KaPdSgVkYp3s6v9y$B&E)H@McQfTjWmZq4t"
+
+# Observability 配置
+[observability]
+enabled = true
